@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-bgdark: rgba(40, 40, 40, 1);
+  --color-bglight: rgba(175, 175, 175, 1);
+
+  --color-textdark: rgba(175, 175, 175, 1);
+  --color-textlight: rgba(40, 40, 40, 1);
+}
